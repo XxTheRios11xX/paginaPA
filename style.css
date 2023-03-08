@@ -12,10 +12,13 @@ body {
 
 section {
   position: relative;
-  backdrop-filter: blur(5px);
   margin: 16px 16px;
 }
 
+header{
+    background-image: url("public/backnav.png");
+    background-color: #361080;
+}
 
 nav ul {
   display: flex;
@@ -24,12 +27,11 @@ nav ul {
   list-style-type: none;
   margin-bottom: 20px;
   padding-top: 10px;
-  background-color: blueviolet;
   padding-bottom: 10px;
 }
 
 a:hover{
-    color: red;
+    color: rgb(255, 208, 0);
 }
 
 h1 {
@@ -61,6 +63,10 @@ table{
 th, td {
     padding: 15px;
   }
+
+  iframe{
+    padding: 30px;
+  }
       
 
 .contenedorimg {
@@ -75,6 +81,7 @@ th, td {
   padding: 10px;
 }
 
+
 #bg {
   /* background-image: url("public/fondo.png");
         background-size: cover;
@@ -84,7 +91,24 @@ th, td {
 }
 
 #mainyo {
-  height: 300px;
+  height: 400px;
 }
+
+#imgApex{
+
+    width: 281.1px;
+    height: auto;
+    display: inline-block;
+    margin: 20px;
+}
+
+#imgHades{
+    width: 500px;
+    height: auto;
+    display: inline-block;
+    margin: 20px;
+}
+
+
 
 
