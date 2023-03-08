@@ -15,9 +15,9 @@ section {
   margin: 16px 16px;
 }
 
-header{
-    background-image: url("public/backnav.png");
-    background-color: #361080;
+header {
+  background-image: url("public/backnav.png");
+  background-color: #361080;
 }
 
 nav ul {
@@ -30,44 +30,44 @@ nav ul {
   padding-bottom: 10px;
 }
 
-a:hover{
-    color: rgb(255, 208, 0);
+a:hover {
+  color: rgb(255, 208, 0);
 }
 
 h1 {
   text-align: center;
-  font-family: 'Tilt Prism';
+  font-family: "Tilt Prism";
   margin-bottom: 20px;
 }
 
 h2 {
   text-align: center;
-  font-family: 'Tilt Prism';
+  font-family: "Tilt Prism";
 }
 
-h3{
-    font-family: 'Tilt Prism';
-    margin-bottom: 10px;
+h3 {
+  font-family: "Tilt Prism";
+  margin-bottom: 10px;
 }
 
 p {
-    font-family: 'Roboto Mono', monospace;
-    line-height: 30px;
+  font-family: "Roboto Mono", monospace;
+  line-height: 30px;
 }
 
-table{
-    margin-left: auto;
-    margin-right: auto;
+table {
+  margin-left: auto;
+  margin-right: auto;
 }
 
-th, td {
-    padding: 15px;
-  }
+th,
+td {
+  padding: 15px;
+}
 
-  iframe{
-    padding: 30px;
-  }
-      
+iframe {
+  padding: 30px;
+}
 
 .contenedorimg {
   text-align: center;
@@ -81,6 +81,17 @@ th, td {
   padding: 10px;
 }
 
+.gifs {
+  display: flex;
+  gap: 24px;
+  justify-content: space-around;
+  text-align: center;
+}
+
+.gifContainer {
+  max-height: 250px;
+  width: auto;
+}
 
 #bg {
   /* background-image: url("public/fondo.png");
@@ -93,22 +104,3 @@ th, td {
 #mainyo {
   height: 400px;
 }
-
-#imgApex{
-
-    width: 281.1px;
-    height: auto;
-    display: inline-block;
-    margin: 20px;
-}
-
-#imgHades{
-    width: 500px;
-    height: auto;
-    display: inline-block;
-    margin: 20px;
-}
-
-
-
-
