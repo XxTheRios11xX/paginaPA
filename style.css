@@ -8,6 +8,7 @@
 
 body {
   position: relative;
+  min-height: 100vh;
 }
 
 section {
@@ -139,6 +140,12 @@ div>a>i{
   font-size: 50px;
 }
 
+.newFormato{
+  width: 261px;
+  height: auto;
+  object-fit: cover;
+}
+
 #bg {
   /* background-image: url("public/fondo.png");
         background-size: cover;
@@ -148,8 +155,16 @@ div>a>i{
 }
 
 #imagenesPlus{
-  background-image: url("public/madre.png"); 
-  height: 400px; 
-  width: 400px;
+  opacity: 0;
+  transition: all;
+  transition-duration: 700ms;
 }
 
+#imagenesPlus:hover{
+  opacity: 1;
+
+}
+
+#arreglo{
+  margin: 0;
+}
